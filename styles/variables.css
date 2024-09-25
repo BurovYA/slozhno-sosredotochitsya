@@ -2,3 +2,49 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --bg-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --text-color: #353430;
+  --button-color: var(--text-color);
+  --button-hover-color: rgba(53 52 48 / 0.4);
+  --decoration-color: var(--text-color);
+  --heading-text-color: #ffc2e6;
+  --heading-text-shadow-color: var(--accent-color);
+  --section-title-text-color: var(--text-color);
+  --accent-text-color: var(--text-color);
+  --cover-image: url(../images/cover-image-light.png);
+  --rec-decoration-display: none;
+
+  --base-font-size: 18px;
+  --base-gap: 10px;
+
+  /*Заголовок*/
+  --header-padding: var(--base-gap);
+
+  /*Декорирующие уголки и REC*/
+  --decoration-inset: var(--header-padding);
+  --rec-size: 9px;
+
+  /*Основные gap для body*/
+  --page-gap: calc(4 * var(--base-gap));
+
+  /*Отсутпы в main*/
+  --main-gap: calc(5 * var(--base-gap));
+  --main-padding-inline: var(--base-gap);
+
+  /*Отсутпы в section*/
+  --section-gap: calc(2 * var(--base-gap));
+  --gallery-gap: var(--base-gap);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-padding: calc(var(--base-gap) * 2);
+    --gallery-gap: calc(var(--base-gap) * 2);
+    --page-gap: calc(6 * var(--base-gap));
+    --main-gap: calc(8 * var(--base-gap));
+    --main-padding-inline: calc(var(--base-gap) * 2);
+  }
+}
