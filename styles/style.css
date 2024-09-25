@@ -181,6 +181,10 @@
   gap: var(--gallery-gap);
 }
 
+.gallery .acticle-title {
+  margin-block-end: 0;
+}
+
 .image {
   object-fit: cover;
   max-inline-size: 100%;
@@ -234,6 +238,10 @@
 
   .gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery .acticle-title {
+    grid-column: span 3;
   }
 
   .image_colspan-2 {
