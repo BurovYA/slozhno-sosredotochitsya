@@ -12,10 +12,3 @@
   --cover-image: url(../images/cover-image-light.png);
   --rec-decoration-display: none;
 }
-
-@media (prefers-color-scheme: light) {
-  .page.theme_auto {
-    --cover-image: url(../images/cover-image-light.png);
-    --rec-decoration-display: none;
-  }
-}
