@@ -8,6 +8,7 @@
   --accent-color: #ff8dcb;
   --text-color: #353430;
   --button-color: var(--text-color);
+  --button-hover-color: rgba(53 52 48 / 0.4);
   --decoration-color: var(--text-color);
   --heading-text-color: #ffc2e6;
   --heading-text-shadow-color: var(--accent-color);

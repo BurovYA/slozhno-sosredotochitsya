@@ -13,6 +13,7 @@
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --button-color: var(--accent-color);
+  --button-hover-color: rgba(255 0 112 / 0.4);
   --decoration-color: var(--accent-color);
   --heading-text-color: #db00ff;
   --heading-text-shadow-color: var(--accent-color);
@@ -29,6 +30,7 @@
     --accent-color: #ff0070;
     --text-color: #f1b2ce;
     --button-color: var(--accent-color);
+    --button-hover-color: rgba(255 0 112 / 0.4);
     --decoration-color: var(--accent-color);
     --heading-text-color: #db00ff;
     --heading-text-shadow-color: var(--accent-color);
